@@ -23,3 +23,16 @@ class lia :public seseorang{
         }
 };
 
+int main() {
+  seseorang* obyek;
+  joko a;
+  lia b;
+
+  obyek = &a;
+  obyek->pesan();
+  obyek = &b;
+  obyek->pesan();
+  //a.seseorang::pesan();
+  //b.seseorang::pesan();
+  return 0;
+}
