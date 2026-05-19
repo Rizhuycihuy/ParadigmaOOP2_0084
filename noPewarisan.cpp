@@ -22,3 +22,9 @@ class derivedClass : public baseClass1 {
         }
 };
 
+int main() {
+  derivedClass a;
+  a.perkenalan();
+  a.perkenalan();
+  return 0;
+}
